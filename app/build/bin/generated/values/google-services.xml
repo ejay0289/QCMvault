@@ -1,0 +1,9 @@
+<resources>
+    <string name="default_web_client_id" translatable="false">666835415771-j7cpirg82c6tem8cr46tapmjt4oldvhb.apps.googleusercontent.com</string>
+    <string name="google_app_id" translatable="false">1:666835415771:android:6f365a9fa5e21ba7f1d2fe</string>
+    <string name="gcm_defaultSenderId" translatable="false">666835415771</string>
+    <string name="google_api_key" translatable="false">AIzaSyDuwTSl36LcWcum_JYG5JQXyZjggiRPo4Y</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDuwTSl36LcWcum_JYG5JQXyZjggiRPo4Y</string>
+    <string name="firebase_database_url" translatable="false">https://qcmvault-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="google_storage_bucket" translatable="false">qcmvault.appspot.com</string>
+</resources>

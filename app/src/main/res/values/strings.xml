@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QCMvault</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<string-array name="sessions">
+		
+		<item>1e Session</item>
+		<item>2e Session</item>
+	</string-array>
+
+</resources>

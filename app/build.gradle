@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+
+        // Rest of your Android configuration
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_11
+            targetCompatibility JavaVersion.VERSION_11
+        }
+
+        tasks.withType(JavaCompile) {
+            options.compilerArgs += "--add-modules java.xml.bind"
+        }
+
+
+    defaultConfig {
+		vectorDrawables.useSupportLibrary = true
+        applicationId "com.jaytech.qcmvault"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+	//implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'androidx.cardview:cardview:1.+'
+	implementation 'androidx.recyclerview:recyclerview:1.2.1'
+	implementation 'com.google.firebase:firebase-database:11.+'
+		implementation 'com.google.firebase:firebase-core:11.8.0'
+        	implementation 'com.google.firebase:firebase-auth:11.8.0'
+	implementation 'androidx.constraintlayout:constraintlayout:1.+'
+implementation 'com.facebook.shimmer:shimmer:0.1.0' 
+
+
+}

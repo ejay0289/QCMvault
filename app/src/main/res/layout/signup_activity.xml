@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/Ysbeau"
+        android:textSize="40sp"
+        android:layout_marginBottom="15dp"
+        android:text="QCMvault"
+    />
+    <TextView
+        android:layout_gravity="start"
+        android:text="S'inscrire"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> 
+
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:drawableStart="@drawable/user_focused"
+        android:background="@drawable/custom_edit_text"
+        android:paddingHorizontal="12dp"
+        android:drawablePadding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Utilisateur"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/emailEditText"
+
+        android:background="@drawable/custom_edit_text"
+
+        android:paddingHorizontal="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/reactive_email_icon"
+        android:drawablePadding="12dp"
+        android:hint="Email"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"     
+        android:background="@drawable/custom_edit_text"
+        android:paddingHorizontal="12dp" 
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/reactive_lock_icon"
+        android:drawablePadding="12dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="S'inscrire"
+        android:background="@drawable/logout_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp" 
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+    >
+        <TextView
+            android:text="Déjà inscrit?"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+        />
+        <TextView
+            android:id="@+id/login_text_clickable"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Connectez-vous"
+            android:textColor="#4A96FF" />
+    </LinearLayout>
+</LinearLayout>
+
+
+

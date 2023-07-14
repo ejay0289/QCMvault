@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" >
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+        
+		<item name="android:statusBarColor">@color/gradientEnd</item>
+		<item name="android:textAppearance">@style/MyText</item>
+		<item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">50dp</item>
+        
+        
+	</style>
+	
+	<style name="MyText" parent="@android:style/TextAppearance">
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+	<style name="PopupMenu">
+		
+		<item name="android:popupBackground">@drawable/popup_menu_background</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:colorBackground">@color/colorAccent</item>
+		
+	</style>
+	<style name="PopupMenuStyle" >
+		<item name="android:overlapAnchor">false</item>
+		<item name="android:dropDownVerticalOffset">-4dp</item>
+		<item name="android:dropDownHorizontalOffset">0dp</item>
+		<item name="android:dropDownWidth">wrap_content</item>
+	</style>
+	
+	<style name="Popupborder">
+		<item name="android:background">@drawable/popup_menu_background</item>
+	</style>
+	
+	<style name="checkboxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+		<item name="android:buttonTint">@color/colorAccent</item>
+	</style>
+	
+	<style name="text" parent="@android:style/Widget.TextView">
+		<item name="android:fontFamily">@font/roboto_regular</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+    
+    
+    
+	
+</resources>

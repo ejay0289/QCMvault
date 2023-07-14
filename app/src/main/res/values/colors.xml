@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<color name="blue">#4A96FF</color>
+	<color name="purple">#B34AFF</color>
+	<color name="blue_complement">#FF964A</color>
+<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+	
+	<color name="gradStart">#4A96FF</color>
+	
+	<color name="gradMid">#584AFF</color>
+	<color name="gradEnd">#B34AFF</color>
+	<color name="red">#FF0000</color>
+	
+	<color name="gradientStart">#5CC8FF</color>
+	<color name="gradientEnd">#B34AFF</color>
+	<color name="stardust">#9FA09C</color>
+	<color name="colorAccent">#64A2F7</color>
+		<!-- Other color definitions
+			
+	C8FF5C
+			-->
+	
+	
+	<color name="background1">#091f77</color>
+	<color name="background2">#A8B3DE</color>
+	
+	<color name="brightBlue">#4870ff</color>
+	
+	
+	
+	</resources>

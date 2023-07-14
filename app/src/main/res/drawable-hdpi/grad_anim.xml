@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<item android:duration="2000"
+	android:drawable="@drawable/card_background" />
+<item android:duration="2000"
+	android:drawable="@drawable/grad_start"/>
+	
+	<item android:duration="2000"
+		android:drawable="@drawable/gradEnd"/>
+	<item android:duration="2000"
+		android:drawable="@drawable/card_background" />
+	</animation-list>

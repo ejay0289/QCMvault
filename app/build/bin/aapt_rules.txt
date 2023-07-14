@@ -1,0 +1,65 @@
+# view res/layout/annee_activity.xml #generated:201
+# view res/layout/annee_activity.xml #generated:318
+# view res/layout/annee_activity.xml #generated:432
+# view res/layout/annee_activity.xml #generated:568
+# view res/layout/annee_activity.xml #generated:595
+# view res/layout/annee_activity.xml #generated:78
+# view res/layout/item_view.xml #generated:2
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# view res/layout/annee_activity.xml #generated:1
+# view res/layout/annee_activity.xml #generated:65
+# view res/layout/nav_menu.xml #generated:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# view res/layout/main_activity.xml #generated:26
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# view res/layout/main_activity.xml #generated:8
+-keep class com.facebook.shimmer.ShimmerFrameLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.jaytech.qcmvault.AnneeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.jaytech.qcmvault.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.jaytech.qcmvault.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.jaytech.qcmvault.ModuleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.jaytech.qcmvault.SignUpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.jaytech.qcmvault.SplashActivity { <init>(...); }
+
